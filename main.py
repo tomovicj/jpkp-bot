@@ -76,6 +76,7 @@ def main():
             #     print("nema novih obavestenja")
 
 
-while True:
-    main()
-    time.sleep(900)
+if __name__ == "__main__":
+    while True:
+        main()
+        time.sleep(900)
